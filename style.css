@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "DM Sans", sans-serif;
+}
+body {
+  background-color: #2f1893;
+}
+
+/* Navigation bar */
+.navigation {
+  background-color: #2f1893;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 74px 213px;
+}
+.left {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navigation .left p {
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 10px;
+}
+.nav-item a {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.nav-item:nth-child(1) a {
+  color: #6d5db3;
+  text-decoration: none;
+}
+
+/* Styling Prices, Blog, Feedback links */
+.nav-item:nth-child(2) a,
+.nav-item:nth-child(3) a,
+.nav-item:nth-child(4) a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Styling Purchases link */
+.nav-item:nth-child(5) a {
+  color: #fff;
+  background-color: #e93a7d;
+  border: 2px solid #e93a7d;
+  border-radius: 17px;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+/* Main body part */
+
+/* Left side */
+
+.leftMain {
+  background-color: #2f1893;
+  color: #fff;
+  padding: 20px;
+  width: 50%;
+  float: left;
+}
+.leftMain h1 {
+  font-size: 58px;
+}
+.leftMain p {
+  font-size: 22px;
+}
+.btnLeftMain {
+  color: #fff;
+  background-color: #e93a7d;
+  border: 2px solid #e93a7d;
+  border-radius: 22px;
+  padding: 12px 31px;
+}
+
+/* Right side */
+
+.rightMain {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 470px;
+  height: 600px;
+  float: right;
+  margin-right: 68px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Styling the form within the right side */
+
+.rightMain .form {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightMain .form h1 {
+  color: #1e0e62;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  margin-bottom: 34px;
+}
+.rightMain .form input {
+  color: rgba(21, 20, 57, 0.4);
+  width: 330px;
+  border: 2px solid #ebeaed;
+  border-radius: 24px;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+}
+
+.custom-checkbox {
+  color: rgba(1, 20, 57, 0.4);
+  display: flex;
+  align-items: center;
+}
+
+.custom-checkbox label {
+  cursor: pointer;
+}
+
+.checkboxImg {
+  padding-right: 13px;
+}
+
+.btnRightMain {
+  margin-top: 27.6px;
+  width: 330px;
+  height: 50px;
+  background-color: #482be7;
+  color: #ffffff;
+  border-radius: 23px;
+  border: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.rightMain .form .divider {
+  width: 141.57px;
+  height: 2px;
+  background-color: #ccc;
+  border: none;
+  margin: 10px 0;
+}
+
+.rightMain .form p {
+  margin: 10px 0;
+  color: #ccc;
+}
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.center .divider {
+  width: 141.57px;
+  height: 2px;
+  background-color: #ccc;
+  border: none;
+  margin: 5px 0;
+}
+
+.center p {
+  color: #ccc;
+  margin: 10px 0;
+  text-align: center;
+  padding: 0 15.93px 0 12.93px;
+}
+
+.btnTwitterMain {
+  background-color: #1da1f2;
+  color: #ffffff;
+  margin-top: 16.6px;
+  width: 330px;
+  height: 50px;
+  border: none;
+  border-radius: 23px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+}
+.bottom {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.bottom a {
+  color: #25dac5;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
